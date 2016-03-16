@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "version": "0.1.0",
+  "name": "Extension Name",
+  "author": "Nadim Tuhin<nadimtuhin@gmail.com>",
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["dist/app.min.js"]
+    }
+  ]
+}
