@@ -1,6 +1,6 @@
 # Chrome React Boilerplate
 
-A minimal boilerplate for building Chrome extensions with React and Webpack.
+Boilerplate for building Chrome extensions with React and Webpack.
 
 ## Features
 
