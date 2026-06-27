@@ -1,7 +1,7 @@
 {
-  "name": "simple-react-boilerplate",
+  "name": "chrome-react-boilerplate",
   "version": "1.0.0",
-  "description": "Initially built for chrome extensions",
+  "description": "Minimal boilerplate for building Chrome extensions with React and Webpack",
   "scripts": {
     "clean": "rimraf app/dist",
     "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.config.prod.js",
@@ -12,21 +12,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nadimtuhin/simple-react-boilerplate.git"
+    "url": "https://github.com/nadimtuhin/chrome-react-boilerplate.git"
   },
   "keywords": [
+    "chrome-extension",
     "react",
     "reactjs",
     "boilerplate",
     "webpack",
-    "babel"
+    "babel",
+    "javascript"
   ],
   "author": "Nadim Tuhin <nadimtuhin@gmail.com> (http://github.com/nadimtuhin)",
-  "license": "CC0-1.0",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nadimtuhin/simple-react-boilerplate/issues"
+    "url": "https://github.com/nadimtuhin/chrome-react-boilerplate/issues"
   },
-  "homepage": "https://github.com/nadimtuhin/simple-react-boilerplate",
+  "homepage": "https://github.com/nadimtuhin/chrome-react-boilerplate",
   "devDependencies": {
     "babel-core": "^6.6.5",
     "babel-eslint": "^5.0.0-beta4",
